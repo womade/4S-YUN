@@ -1,0 +1,26 @@
+{
+	"name": "4S-YUN",
+	"description": "Deploy 4S-YUN on Heroku.",
+	"repository": "https://github.com/womade/4S-YUN",
+	"keywords": ["4S-YUN"],
+	"website": "https://i.ssss.fun",
+	"env": {
+		"DB_Host": {
+			"description": "Database Host",
+			"value": "127.0.0.1"
+		},
+		"DB_Name": {
+			"description": "Database Name",
+			"value": "cloud"
+		},
+		"DB_User": {
+			"description": "Database User",
+			"value": "cloud"
+		},
+		"DB_Password": {
+			"description": "Database Password",
+			"value": "00000000"
+		}
+	},
+	"stack": "container"
+}
