@@ -1,5 +1,8 @@
 FROM debian:stable-slim
 
+LABEL mantainer="yuanzheng"
+
+ENV DEBIAN_FRONTEND noninteractive
 ENV TZ=Asia/Shanghai
 
 ADD conf.ini /root/cloud/conf.ini
